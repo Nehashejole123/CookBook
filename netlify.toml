@@ -1,0 +1,22 @@
+[build]
+  publish = "build"
+  command = "npm run build"
+
+[functions]
+  directory = "netlify/functions"
+
+[dev]
+  framework = "create-react-app"
+  targetPort = 3000
+  port = 8888
+  functionsPort = 9999
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
