@@ -33,18 +33,18 @@ Deployed easily on **Netlify (frontend)** and **Node.js backend**.
 - ☁️ Netlify for deployment
 
 **Install Dependencies**
-# Install frontend packages
+Install frontend packages
 npm install
 
-**Start development servers**
-npm start
+-**Start development servers**
+- npm start
 
-**In another terminal → start backend server**
-npm install
-npm run dev
+-**In another terminal → start backend server**
+- npm install
+- npm run dev
 
-**Build for production**
-npm run dev 
+-**Build for production**
+- npm run dev 
 
 🚀**Deployment**
 
