@@ -1,6 +1,6 @@
-<h2> 📖 CookBook – Recipe Management App </h2>
+<h3>📖 CookBook – Recipe Management App </h3>
 
-A full-stack <h3>CookBook web application</h3> built with **React (frontend)** and **Express (backend)**.  
+A full-stack **CookBook web application** built with **React (frontend)** and **Express (backend)**.  
 It allows users to **register/login, create, edit, view, and manage recipes** with authentication.  
 Deployed easily on **Netlify (frontend)** and **Node.js backend**.
 
@@ -32,5 +32,27 @@ Deployed easily on **Netlify (frontend)** and **Node.js backend**.
 - 🔄 REST API integration
 - ☁️ Netlify for deployment
 
+**Install Dependencies**
+# Install frontend packages
+npm install
 
+**Start development servers**
+npm start
+
+**In another terminal → start backend server**
+npm install
+npm run dev
+
+**Build for production**
+npm run dev 
+
+🚀**Deployment**
+
+Frontend (React) → Netlify
+Push code to GitHub
+Link repo in Netlify
+Deploy directly
+Backend (Express API) → Render/Heroku
+Deploy /server folder separately
+Set environment variables for JWT_SECRET etc.
 
